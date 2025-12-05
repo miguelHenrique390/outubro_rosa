@@ -1,0 +1,27 @@
+* {
+      margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #ff80ab, #f06292);
+  color: white;
+}
+
+header .img-header {
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
