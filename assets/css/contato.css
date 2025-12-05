@@ -7,7 +7,7 @@
 header {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(135deg, #ff80ab, #f06292);
+  background-color: #f06292;
   color: white;
 }
 
@@ -24,4 +24,46 @@ header h1 {
 header p {
   font-size: 1.1rem;
   font-weight: 300;
+}
+
+div {
+  width: 500px;
+  margin: 40px auto;
+  background-color: #ffe4ec;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+div h1 {
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+button {
+    height: 50px;
+    width: 260px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff80ab;
+}
+
+button:hover{
+    background-color: #ffd9e5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input {
+    height: 30px;
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
 }
