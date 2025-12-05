@@ -112,3 +112,12 @@ gap: 12px;
   .div-container {
     padding: 20px;
   }
+
+footer {
+    background-color: #880e4f;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
