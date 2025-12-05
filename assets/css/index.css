@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: rgb(255, 133, 198);
+}   
+
+a{
+text-decoration: none;
+color: rgb(112, 0, 71);    
+}
+
+a:hover{
+    color: rgb(187, 0, 125);    
+
+}
+header {
+    background-color: rgb(255, 0, 136);
+    height: 60px;
+    text-align: center;
+}
+
+.navegation {
+    background-color: rgb(253, 63, 164);
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 30%;
+
+}
+
+.imagem-rosa {
+text-align: center;
+}
+
+section{
+    background-color: rgb(188, 0, 113);
+}
+
+.img-carrosel_rosa {
+    display: flex;
+    justify-content: center;
+}
